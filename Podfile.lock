@@ -1,0 +1,22 @@
+PODS:
+  - Aspects (1.4.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+
+DEPENDENCIES:
+  - Aspects
+  - FMDB
+
+SPEC REPOS:
+  trunk:
+    - Aspects
+    - FMDB
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+
+PODFILE CHECKSUM: 8fe6f58b5536e949e99dbf438375059e6dfa286d
+
+COCOAPODS: 1.8.4

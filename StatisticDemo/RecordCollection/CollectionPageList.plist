@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OneViewController</key>
+	<string>我是OneViewController</string>
+	<key>TwoViewController</key>
+	<string>我是TwoViewController</string>
+	<key>ThreeViewController</key>
+	<string>我是ThreeViewController</string>
+	<key>FourViewController</key>
+	<string>我是FourViewController</string>
+	<key>MainViewController</key>
+	<string>MainViewController是我</string>
+</dict>
+</plist>

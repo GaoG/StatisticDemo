@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MainViewController</key>
+	<dict>
+		<key>action1</key>
+		<string>我是第一个按钮</string>
+		<key>action3:</key>
+		<string>我是action3:的标题  </string>
+	</dict>
+	<key>ThreeViewController</key>
+	<dict>
+		<key>tableView:didSelectRowAtIndexPath</key>
+		<string>tableview 的选择事件</string>
+	</dict>
+</dict>
+</plist>
