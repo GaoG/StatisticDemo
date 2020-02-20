@@ -14,5 +14,10 @@
 		<key>tableView:didSelectRowAtIndexPath</key>
 		<string>tableview 的选择事件</string>
 	</dict>
+	<key>FourViewController</key>
+	<dict>
+		<key>collectionView:didSelectItemAtIndexPath</key>
+		<string>我选择了 collectionView</string>
+	</dict>
 </dict>
 </plist>

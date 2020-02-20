@@ -9,7 +9,7 @@
 #import "UIScrollView+CollectEvent.h"
 #import "NSObject+RuntimeMethodHelper.h"
 #import "UITableView+CollectEvent.h"
-
+#import "UICollectionView+CollectEvent.h"
 
 // return sel
 #define GET_CLASS_CUSTOM_SEL(sel,class)  NSSelectorFromString([NSString stringWithFormat:@"%@_%@",NSStringFromClass(class),NSStringFromSelector(sel)])
@@ -32,6 +32,14 @@
         if (![self isContainSel:GET_CLASS_CUSTOM_SEL(@selector(tableView:didSelectRowAtIndexPath:),[delegate class]) inClass:[delegate class]]) {
             [(UITableView *)self swizzling_tableViewDidSelectRowAtIndexPathInClass:delegate];
         }
+        
+    }else if ([NSStringFromClass([self class]) isEqualToString:@"UICollectionView"]){
+        
+        if (![self isContainSel:GET_CLASS_CUSTOM_SEL(@selector(tableView:didSelectRowAtIndexPath:),[delegate class]) inClass:[delegate class]]) {
+            
+            [(UICollectionView *)self swizzling_collectionViewDidSelectItemAtIndexPathInClass:delegate];
+        }
+        
         
     }
     [self wf_setDelegate:delegate];

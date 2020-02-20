@@ -49,6 +49,14 @@
     btn4.backgroundColor = [UIColor redColor];
     [btn4 addTarget:self action:@selector(action4) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn4];
+    
+    
+    UIButton *btn5 = [[UIButton alloc] initWithFrame:CGRectMake(100, 480, 100, 80)];
+    [btn5 setTitle:@"btn5" forState:UIControlStateNormal];
+    btn5.backgroundColor = [UIColor redColor];
+    [btn5 addTarget:self action:@selector(action5) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn5];
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated{
@@ -75,6 +83,13 @@
     
 }
 
+
+-(void)action5{
+    
+    FourViewController *four = [[FourViewController alloc]init];
+    [self.navigationController pushViewController:four animated:YES];
+    
+}
 /*
 #pragma mark - Navigation
 
