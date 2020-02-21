@@ -27,6 +27,7 @@
     
     [self wf_sendAction:action to:target forEvent:event];
     
+    
     NSLog(@"方法调用--->方法名:%@----->当前按钮:%@---->当前事件响应者:%@--->当前时间:%@",NSStringFromSelector(action), [self class],NSStringFromClass([target class]),[NSString stringWithFormat:@"%ld", (long)[[NSDate date] timeIntervalSince1970]]);
     //先判断是否在被统计的范围内
     if ([[CollectionManager sharedManager]isCollectEvent:NSStringFromSelector(action) andTarget:NSStringFromClass([target class])]) {

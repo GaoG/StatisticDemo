@@ -19,6 +19,7 @@
 		2113CD1A23FD7027007B14D7 /* EventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113CD0F23FD7027007B14D7 /* EventModel.m */; };
 		2113CD1B23FD7027007B14D7 /* CollectionPageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2113CD1023FD7027007B14D7 /* CollectionPageList.plist */; };
 		2113CD1E23FE2D8F007B14D7 /* UICollectionView+CollectEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113CD1D23FE2D8E007B14D7 /* UICollectionView+CollectEvent.m */; };
+		2113CD2423FEC444007B14D7 /* UIGestureRecognizer+CollectEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113CD2323FEC443007B14D7 /* UIGestureRecognizer+CollectEvent.m */; };
 		212919D523F3AB4100090897 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212919D423F3AB4100090897 /* AppDelegate.m */; };
 		212919DB23F3AB4100090897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212919D923F3AB4100090897 /* Main.storyboard */; };
 		212919DD23F3AB4400090897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212919DC23F3AB4400090897 /* Assets.xcassets */; };
@@ -59,6 +60,8 @@
 		2113CD1023FD7027007B14D7 /* CollectionPageList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CollectionPageList.plist; sourceTree = "<group>"; };
 		2113CD1C23FE2D8E007B14D7 /* UICollectionView+CollectEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+CollectEvent.h"; sourceTree = "<group>"; };
 		2113CD1D23FE2D8E007B14D7 /* UICollectionView+CollectEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+CollectEvent.m"; sourceTree = "<group>"; };
+		2113CD2223FEC443007B14D7 /* UIGestureRecognizer+CollectEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+CollectEvent.h"; sourceTree = "<group>"; };
+		2113CD2323FEC443007B14D7 /* UIGestureRecognizer+CollectEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+CollectEvent.m"; sourceTree = "<group>"; };
 		212919D023F3AB4100090897 /* StatisticDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatisticDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		212919D323F3AB4100090897 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		212919D423F3AB4100090897 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				2113CD0323FD7027007B14D7 /* UIViewController+CollectEvent.m */,
 				2113CCFF23FD7027007B14D7 /* NSObject+RuntimeMethodHelper.h */,
 				2113CD0423FD7027007B14D7 /* NSObject+RuntimeMethodHelper.m */,
+				2113CD2223FEC443007B14D7 /* UIGestureRecognizer+CollectEvent.h */,
+				2113CD2323FEC443007B14D7 /* UIGestureRecognizer+CollectEvent.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -340,6 +345,7 @@
 				2113CD1E23FE2D8F007B14D7 /* UICollectionView+CollectEvent.m in Sources */,
 				2113CD1523FD7027007B14D7 /* NSObject+RuntimeMethodHelper.m in Sources */,
 				21291A0523F3DF7400090897 /* MainViewController.m in Sources */,
+				2113CD2423FEC444007B14D7 /* UIGestureRecognizer+CollectEvent.m in Sources */,
 				2113CD1423FD7027007B14D7 /* UIViewController+CollectEvent.m in Sources */,
 				21291A0123F3DF0300090897 /* FourViewController.m in Sources */,
 				2113CD1723FD7027007B14D7 /* StorageManager.m in Sources */,

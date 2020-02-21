@@ -361,38 +361,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "StatisticDemo/AppDelegate.m"
-            timestampString = "603813691.731312"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "-applicationWillEnterForeground:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "StatisticDemo/AppDelegate.m"
-            timestampString = "603813691.731413"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "-applicationDidEnterBackground:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "StatisticDemo/Data/PageModel.m"
             timestampString = "603725463.232908"
             startingColumnNumber = "9223372036854775807"
@@ -505,13 +473,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "StatisticDemo/RecordCollection/Category/UICollectionView+CollectEvent.m"
-            timestampString = "603861680.148579"
+            filePath = "StatisticDemo/RecordCollection/Manager/CollectionManager.m"
+            timestampString = "603861696.156884"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "-wf_imp_collectionView:didSelectItemAtIndexPath:"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "-saveEventData:withTargetName:withBeginTime:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -521,13 +489,77 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "StatisticDemo/RecordCollection/Manager/CollectionManager.m"
-            timestampString = "603861696.156884"
+            filePath = "StatisticDemo/MainViewController.m"
+            timestampString = "603948321.471266"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "-saveEventData:withTargetName:withBeginTime:"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "-action6"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StatisticDemo/RecordCollection/Category/UIControl+CollectEvent.m"
+            timestampString = "603947193.048167"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-wf_sendAction:to:forEvent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StatisticDemo/RecordCollection/Category/UIControl+CollectEvent.m"
+            timestampString = "603947193.048263"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-wf_sendAction:to:forEvent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StatisticDemo/RecordCollection/Category/UIGestureRecognizer+CollectEvent.m"
+            timestampString = "603948321.471944"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-wf_gestureAction:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StatisticDemo/RecordCollection/Category/UIGestureRecognizer+CollectEvent.m"
+            timestampString = "603948321.472023"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "-wf_gestureAction:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

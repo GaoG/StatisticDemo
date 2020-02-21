@@ -57,6 +57,34 @@
     [btn5 addTarget:self action:@selector(action5) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn5];
     
+    
+    
+    UIView *aaaView = [[UIView alloc]initWithFrame:CGRectMake(100, 580, 100, 180)];
+    
+    aaaView.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:aaaView];
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:aaaView.bounds];
+    label.numberOfLines = 0;
+    label.textColor = [UIColor whiteColor];
+    label.text = @"❌❌❌❌手势的点击统计,使用了私有方法 上线项目禁止使用!!!!❌❌❌❌";
+    [aaaView addSubview:label];
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapAction:)];
+    aaaView.userInteractionEnabled = YES;
+    [aaaView addGestureRecognizer:tap];
+    
+//    UIButton *btn6 = [[UIButton alloc] initWithFrame:CGRectMake(0, 50, 100, 80)];
+//    [btn6 setTitle:@"btn6" forState:UIControlStateNormal];
+//    btn6.backgroundColor = [UIColor redColor];
+//    [btn6 addTarget:self action:@selector(action6) forControlEvents:UIControlEventTouchUpInside];
+//    [aaaView addSubview:btn6];
+    
+
+    
+    
+    
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated{
@@ -89,6 +117,18 @@
     FourViewController *four = [[FourViewController alloc]init];
     [self.navigationController pushViewController:four animated:YES];
     
+}
+
+-(void)action6{
+    
+    NSLog(@"action6");
+    
+}
+
+
+-(void)tapAction:(UIGestureRecognizer *)gesture{
+    
+    NSLog(@"tapAction");
 }
 /*
 #pragma mark - Navigation
